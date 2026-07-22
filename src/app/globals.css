@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  background: oklch(98.3% 0.006 90);
+  color: oklch(22% 0.02 250);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: oklch(80% 0.01 250) transparent;
+}
+
+a {
+  color: oklch(38% 0.09 175);
+}
+a:hover {
+  color: oklch(32% 0.095 175);
+}
